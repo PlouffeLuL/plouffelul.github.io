@@ -1,0 +1,8 @@
+{
+  "label": "Events Manager",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Handle games events and utility events for fayoum"
+  }
+}
