@@ -20,7 +20,7 @@ sidebar_position: 1
 - Framework 
   - Sets the framework to be used, currently "esx" or "qbcore" is supported. Refer to configs file for more information.
   - You can manually configure it for your own framework or any other. Refer to config files.
-  - ```setr plouffe_lib:inventoryFramework "ox"```
+  - ```setr plouffe_lib:framework "ox"```
 
 - Inventory Framework 
   - Sets the inventory to be used, currently only "ox", "esx" or "qbcore". Refer to configs file for more information.
