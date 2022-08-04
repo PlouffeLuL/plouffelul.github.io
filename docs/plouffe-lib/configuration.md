@@ -12,9 +12,24 @@ sidebar_position: 1
   
 # Setr
 
-- Gamemode 
-  - Sets the game mode for the lib.
-  - ```setr plouffe_lib:gamemode "rdr3"```
+- Locales 
+  - Sets the locales languages, currently only "fr" and "eng" is supported.
+  - You can add your own locales inside of locales folder and then use this file name.
+  - ```setr plouffe_lib:locales "fr"```
+
+- Framework 
+  - Sets the framework to be used, currently "esx" or "qbcore" is supported. Refer to configs file for more information.
+  - You can manually configure it for your own framework or any other. Refer to config files.
+  - ```setr plouffe_lib:inventoryFramework "ox"```
+
+- Inventory Framework 
+  - Sets the inventory to be used, currently only "ox", "esx" or "qbcore". Refer to configs file for more information.
+  - ```setr plouffe_lib:inventoryFramework "ox"```
+
+- Framework Logs 
+  - functions la inventory.ReduceDurability are only compatible with ox_inventory and needs to be configure manually. Setting this convar to true will disable those logs.
+  - You can manually configure it for your own inventory or any other. Refer to config files.
+  - ```setr plouffe_lib:disableFrameWorkLogs "true"```
 
 - Warnings
   - Events manager warning, this is mostly used when registering game events for rdr.

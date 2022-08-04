@@ -8,7 +8,13 @@ sidebar_position: 6
 ```lua
   local Utils = exports.plouffe_lib:Get("Utils")
 ```
-
+- Register a network only event (experimental)
+    - ```Utils:RegisterNetEvent(name, fn)```
+        - Params
+        ```
+        ---@param name string event name
+        ---@param fn function callback
+        ```
 - Set a cooldown
     - ```Utils:Cooldown(time,name)```
         - Params
