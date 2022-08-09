@@ -4,6 +4,10 @@ sidebar_position: 1
 
 # Configuration
 
+# Tebex
+- https://plouffe.tebex.io/category/1722508
+# Discord
+- https://discord.com/invite/xJVCY9AvvW
 # Important
 
 - These files needs to be configurated before the script usage
