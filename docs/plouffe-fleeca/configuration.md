@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 ---
-
+# Configuration
 # Dependencies
 - plouffe_lib
 - plouffe_doorlock
