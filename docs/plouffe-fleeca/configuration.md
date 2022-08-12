@@ -2,6 +2,16 @@
 sidebar_position: 1
 ---
 
+# Dependencies
+- plouffe_lib
+- plouffe_doorlock
+
+# Github
+- https://github.com/PlouffeLuL/plouffe_fleeca
+
+# Discord
+- https://discord.com/invite/xJVCY9AvvW
+
 # Convars
 - plouffe_fleeca:qtarget
     - Example:
