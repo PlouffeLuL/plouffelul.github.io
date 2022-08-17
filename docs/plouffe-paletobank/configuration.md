@@ -91,6 +91,23 @@ sidebar_position: 1
     - Description: 
         - Maximum money to be added when adding money to a bank
 
+- plouffe_paletobank:max_bank_money
+    - Example:
+        - set plouffe_paletobank:max_bank_money "500000"
+    - Description: 
+        - Maximum money to be avaible in the bank
+
+- plouffe_paletobank:time_to_hack
+    - Example:
+        - set plouffe_paletobank:time_to_hack "10" # seconds
+    - Description: 
+        - The allowed delay between the two hacks to be completed in seconds
+
+- plouffe_paletobank:time_until_door_opens
+    - Example:
+        - set plouffe_paletobank:time_until_door_opens "10" # Minutes
+    - Description: 
+        - The time after the door opens once the hack is completed in minutes
 
 # Example config 
 
@@ -107,6 +124,9 @@ set plouffe_paletobank:rob_interval "1" # Hours
 set plouffe_paletobank:add_money_interval "15" # Minutes
 set plouffe_paletobank:min_money_addition "2000"
 set plouffe_paletobank:max_money_addition "5000"
+set plouffe_paletobank:max_bank_money "500000"
+set plouffe_paletobank:time_to_hack "10" # seconds
+set plouffe_paletobank:time_until_door_opens "10" # Minutes
 ```
 
 # Important
