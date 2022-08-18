@@ -4,6 +4,12 @@ sidebar_position: 2
 
 # Client
 
+# Try Lockpick
+- Used to trigger the lockpick function
+```
+exports.plouffe_fleeca:TryLockpick()
+```
+
 # Try Thermal
 - Used to trigger the thermal charge function
 ```

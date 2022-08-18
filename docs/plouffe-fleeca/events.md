@@ -4,6 +4,13 @@ sidebar_position: 3
 
 # Events
 
+# Try Lockpick
+- Server > Client
+- Used to trigger the lockpick function
+```
+TriggerClientEvent('plouffe_fleeca:tryLockpick', source)
+```
+
 # Try Thermal
 - Server > Client
 - Used to trigger the thermal charge function

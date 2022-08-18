@@ -13,6 +13,12 @@ sidebar_position: 1
 - https://discord.com/invite/xJVCY9AvvW
 
 # Convars
+- plouffe_fleeca:gabzmap
+    - Example:
+        - setr plouffe_fleeca:gabzmap "true"
+    - Description: 
+        - Will use the gabz mapping doors
+
 - plouffe_fleeca:qtarget
     - Example:
         - setr plouffe_fleeca:qtarget "true"
@@ -36,6 +42,15 @@ sidebar_position: 1
     - Format
         - item_name:amount 
         - This ["thermal_charge:10"] would make it so 10 thermal_charge is nescessary
+
+- plouffe_fleeca:lockpick_item
+    - Example:
+        - setr plouffe_fleeca:lockpick_item ["lockpick:1"]
+    - Description: 
+        - 1x lockpick will be nescessary to start the lockpick
+    - Format
+        - item_name:amount 
+        - This ["lockpick:10"] would make it so 10 lockpick is nescessary
 
 - plouffe_fleeca:money_item
     - Example:
@@ -95,8 +110,10 @@ sidebar_position: 1
 # Example config 
 
 ```
+setr plouffe_fleeca:gabzmap "true"
 setr plouffe_fleeca:qtarget "true"
 setr plouffe_fleeca:hack_item ["card_fleeca:1", "laptop:1"]
+setr plouffe_fleeca:lockpick_item ["lockpick:1"]
 setr plouffe_fleeca:thermal_item ["thermal_charge:1"]
 set plouffe_fleeca:money_item "money_bag"
 set plouffe_fleeca:use_money_metadata "true"
