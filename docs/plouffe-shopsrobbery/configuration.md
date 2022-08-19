@@ -22,9 +22,6 @@ sidebar_position: 1
         - item_name:amount 
         - This ["lockpick:10"] would make it so 10 lockpick is nescessary
 
-
-
-
 - plouffe_shopsrobbery:money_item
     - Example:
         - set plouffe_shopsrobbery:money_item "money"
