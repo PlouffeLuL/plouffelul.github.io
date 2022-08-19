@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Client
+# Exports
 
 # Try Lockpick
 - Used to trigger the lockpick charge function

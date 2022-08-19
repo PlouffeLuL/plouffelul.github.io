@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Client
+# Exports
 
 # Try Grinder
 - Used to trigger the Grinder function
