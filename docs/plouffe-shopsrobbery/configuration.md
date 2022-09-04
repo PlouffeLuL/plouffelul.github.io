@@ -55,12 +55,14 @@ sidebar_position: 1
 # Example config 
 
 ```
-set plouffe_shopsrobbery:lockpick_items ["lockpick:1"]
-set plouffe_shopsrobbery:money_item "money"
-set plouffe_shopsrobbery:add_money_interval "15" # Minutes
-set plouffe_shopsrobbery:min_money_addition "200"
-set plouffe_shopsrobbery:max_money_addition "500"
-set plouffe_shopsrobbery:max_shops_money "5000"
+setr plouffe_trainrobbery:qtarget "true"
+set plouffe_trainrobbery:start_item "train_tracker"
+set plouffe_trainrobbery:bomb_item "anfo_bomb"
+set plouffe_trainrobbery:time_until_loot "10" #minutes
+set plouffe_trainrobbery:police_groups ["police", "sherif"]
+set plouffe_trainrobbery:min_cops "5"
+set plouffe_trainrobbery:train_interval "24" # hours
+set plouffe_trainrobbery:train_speed "20" # from 1 to 40
 ```
 
 # Important

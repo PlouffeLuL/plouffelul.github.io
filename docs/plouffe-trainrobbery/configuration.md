@@ -15,7 +15,7 @@ sidebar_position: 1
 # Convars
 - plouffe_trainrobbery:qtarget
     - Example:
-        - set plouffe_trainrobbery:qtarget "true"
+        - setr plouffe_trainrobbery:qtarget "true"
     - Description: 
         - Will use qtarget to loot crates
 
@@ -62,6 +62,16 @@ sidebar_position: 1
         - the speed of the train from 1 to 40
         - If you are having sync issue a speed of 1 will make it less likely to desync
         - 40 of speed is funny and hard 
+# Example config 
+
+```
+set plouffe_shopsrobbery:lockpick_items ["lockpick:1"]
+set plouffe_shopsrobbery:money_item "money"
+set plouffe_shopsrobbery:add_money_interval "15" # Minutes
+set plouffe_shopsrobbery:min_money_addition "200"
+set plouffe_shopsrobbery:max_money_addition "500"
+set plouffe_shopsrobbery:max_shops_money "5000"
+```
 # Important
 
 - All the convars needs to be set for the script to work
