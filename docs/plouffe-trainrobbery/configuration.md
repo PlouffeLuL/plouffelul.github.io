@@ -12,7 +12,56 @@ sidebar_position: 1
 # Discord
 - https://discord.com/invite/xJVCY9AvvW
 
+# Convars
+- plouffe_trainrobbery:qtarget
+    - Example:
+        - set plouffe_trainrobbery:qtarget "true"
+    - Description: 
+        - Will use qtarget to loot crates
 
+- plouffe_trainrobbery:start_item
+    - Example:
+        - set plouffe_trainrobbery:start_item "train_tracker"
+    - Description: 
+        - The item needed to start the robbery
+
+- plouffe_trainrobbery:bomb_item
+    - Example:
+        - set plouffe_trainrobbery:bomb_item "anfo_bomb"
+    - Description: 
+        - The item needed to exploded the train
+
+- plouffe_trainrobbery:time_until_loot
+    - Example:
+        - set plouffe_trainrobbery:time_until_loot "10"
+    - Description: 
+        - In minutes the amount of time players have to wait until they can loot the train
+    
+- plouffe_trainrobbery:police_groups
+    - Example:
+        - set plouffe_trainrobbery:police_groups ["police", "sherif"]
+    - Description: 
+        - Groups to be detected as 'Police'
+
+- plouffe_trainrobbery:min_cops
+    - Example:
+        - set plouffe_trainrobbery:min_cops "5"
+    - Description: 
+        - Minimum amount of police to start
+
+- plouffe_trainrobbery:train_interval
+    - Example:
+        - set plouffe_trainrobbery:train_interval "24"
+    - Description: 
+        - In hours the amount of time between robbery
+
+- plouffe_trainrobbery:train_speed
+    - Example:
+        - set plouffe_trainrobbery:train_speed "10"
+    - Description: 
+        - the speed of the train from 1 to 40
+        - If you are having sync issue a speed of 1 will make it less likely to desync
+        - 40 of speed is funny and hard 
 # Important
 
 - All the convars needs to be set for the script to work
