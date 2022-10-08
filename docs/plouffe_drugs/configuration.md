@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: "Required script configuration"
 ---
 # Configuration
 
@@ -9,117 +10,31 @@ sidebar_position: 1
 # Github
 - https://github.com/PlouffeLuL/plouffe_drugs
 
-# Discord
-- https://discord.com/invite/xJVCY9AvvW
-
 # Convars
-- plouffe_drugs:qtarget
-    - Example:
-        - setr plouffe_drugs:qtarget "true"
-    - Description: 
-        - Will use qtarget to loot
+|Name | Example | Description | Format | Notes |
+| - |  - | - | - | - |
+| plouffe_drugs:qtarget | setr plouffe_drugs:qtarget "true" | - Will use qtarget to loot
+| plouffe_drugs:water_items | set plouffe_drugs:water_items ["purifiedwater:60", "water:20"] | - purifiedwater will add 60 % water value to the plant | item_name:percent_amount |
+| plouffe_drugs:fert_items | plouffe_drugs:fert_items ["quality_fert:60", "fert:20"] | - quality_fert will add 60 % fert value to the plant | item_name:percent_amount |
+| plouffe_drugs:plants_items | set plouffe_drugs:plants_items ["plantpot:1", "weed_seed:1"] | - 1x plantpot and 1x weed_seed will be nescessary to plant  item_name:amount |
+| plouffe_drugs:weed_item | set plouffe_drugs:weed_item "weed" | - The name of your item to be considered weed | string |
+| plouffe_drugs:weed_growth_time | set plouffe_drugs:weed_growth_time "4320" # minutes | - The time required for a plant to get to full maturity in minutes | string |
+| plouffe_drugs:seed_item | set plouffe_drugs:seed_item "weed_seed" | - The name of your item to be considered seed | string | 1 |
+| plouffe_drugs:allow_advanced_data | set plouffe_drugs:allow_advanced_data "true" | - This will allow the 'Data' option in the plants menu | string | 2 |
+| plouffe_drugs:table_items | set plouffe_drugs:table_items ["methtable:1"] | - 1x methtable will be nescessary to place a meth table | item_name:amount |
+| plouffe_drugs:meth_item | set plouffe_drugs:meth_item "meth" | - The name of your item to be considered meth | string |
+| plouffe_drugs:meth_amount | set plouffe_drugs:meth_amount "20" | - The amount of meth to be given after cooking meth | string |
+| plouffe_drugs:airdrop_items | set plouffe_drugs:airdrop_items ["money:10000"] | - 10000x money will be nescessary to call a airdrop | item_name:amount |
+| plouffe_drugs:drop_interval | set plouffe_drugs:drop_interval "3" # hours | - The time in hours between players can call an airdrop | string |
+| plouffe_drugs:coke_item | set plouffe_drugs:coke_item "coke" | - The name of your item to be considered coke | string |
+| plouffe_drugs:coke_amount | set plouffe_drugs:coke_amount "500" | - The amount of coke to be given after looting an airdrop | string |
 
-- plouffe_drugs:water_items
-    - Example:
-        - set plouffe_drugs:water_items ["purifiedwater:60", "water:20"]
-    - Description: 
-        - purifiedwater will add 60 % water value to the plant
-        - water will add 20% water value to the plant
-    - Format
-        - item_name:amount 
-
-- plouffe_drugs:fert_items
-    - Example:
-        - plouffe_drugs:fert_items ["quality_fert:60", "fert:20"]
-    - Description: 
-        - quality_fert will add 60 % fert value to the plant
-        - fert will add 20% fert value to the plant
-    - Format
-        - item_name:amount 
-
-- plouffe_drugs:plants_items
-    - Example:
-        - set plouffe_drugs:plants_items ["plantpot:1", "weed_seed:1"]
-    - Description: 
-        - 1x plantpot and 1x weed_seed will be nescessary to plant
-    - Format
-        - item_name:amount 
-
-- plouffe_drugs:weed_item
-    - Example:
-        - set plouffe_drugs:weed_item "weed"
-    - Description: 
-        - The name of your item to be considered weed
-        - Will be given when harvesting plants
-
-- plouffe_drugs:weed_growth_time
-    - Example:
-        - set plouffe_drugs:weed_growth_time "4320" # minutes
-    - Description: 
-        - The time required for a plant to get to full maturity in minutes
-
-- plouffe_drugs:seed_item
-    - Example:
-        - set plouffe_drugs:seed_item "weed_seed"
-    - Description: 
-        - The name of your item to be considered seed
-        - Will be given when harvesting female plants
-        - Does not need to be set, if this convar is not set the plants wont give seeds.
-
-- plouffe_drugs:allow_advanced_data
-    - Example:
-        - set plouffe_drugs:allow_advanced_data "true"
-    - Description: 
-        - This will allow the 'Data' option in the plants menu
-        - Recommend only for dev / debuging purpose 
-
-- plouffe_drugs:table_items
-    - Example:
-        - set plouffe_drugs:table_items ["methtable:1"]
-    - Description: 
-        - 1x methtable will be nescessary to place a meth table
-    - Format
-        - item_name:amount 
-
-- plouffe_drugs:meth_item
-    - Example:
-        - set plouffe_drugs:meth_item "meth"
-    - Description: 
-        - The name of your item to be considered meth
-        - Will be given when cooking meth
-
-- plouffe_drugs:meth_amount
-    - Example:
-        - set plouffe_drugs:meth_amount "20"
-    - Description: 
-        - The amount of meth to be given after cooking meth
-
-- plouffe_drugs:airdrop_items
-    - Example:
-        - set plouffe_drugs:airdrop_items ["money:10000"]
-    - Description: 
-        - 10000x money will be nescessary to call a airdrop
-    - Format
-        - item_name:amount 
-
-- plouffe_drugs:drop_interval
-    - Example:
-        - set plouffe_drugs:drop_interval "3" # hours
-    - Description: 
-        - The time in hours between players can call an airdrop
-
-- plouffe_drugs:coke_item
-    - Example:
-        - set plouffe_drugs:coke_item "coke"
-    - Description: 
-        - The name of your item to be considered coke
-        - Will be given when looting an airdrop
-
-- plouffe_drugs:coke_amount
-    - Example:
-        - set plouffe_drugs:coke_amount "500"
-    - Description: 
-        - The amount of coke to be given after looting an airdrop
+# Notes
+- 1
+    - Will be given when harvesting female plants
+    - Does not need to be set, if this convar is not set the plants wont give seeds.
+- 2
+    - Recommend only for dev / debuging purpose
 
 # Example config 
 

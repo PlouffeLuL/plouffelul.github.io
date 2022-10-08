@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/plouffe.ico',
 
   organizationName: 'plouffelul', // Usually your GitHub org/user name.
   projectName: 'plouffelul.github.io', // Usually your repo name.
@@ -27,7 +27,15 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        
+        docs: {
+          sidebarPath: require.resolve('./sidebars.js'),
+          // Please change this to your repo.
+          editUrl: 'https://github.com/plouffelul/plouffelul.github.io/tree/main/',
+          showLastUpdateTime: true,
+        },
+        theme: {
+          customCss: require.resolve('./src/css/custom.css'),
+        },
       }),
     ],
   ],
@@ -47,10 +55,9 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
+            href: 'https://github.com/PlouffeLuL',
             position: 'left',
-            label: 'Docs'
+            label: 'Github'
           },
           {
             href: 'https://plouffe.tebex.io',
@@ -58,16 +65,26 @@ const config = {
             label: 'Tebex'
           },
           {
-            href: 'ttps://discord.gg/xJVCY9AvvW',
+            href: 'https://discord.gg/xJVCY9AvvW',
             position: 'left',
             label: 'Discord'
+          }, 
+          {
+            href: 'https://www.twitch.tv/plouffelul',
+            position: 'left',
+            label: 'Twitch'
+          },
+          {
+            href: 'https://www.youtube.com/channel/UCeok97XakwymEu3gz-Ziwgw',
+            position: 'left',
+            label: 'Youtube'
           }
         ],
       },
       footer: {
         style: 'dark',
         links: [],
-        copyright: `Copyright © ${new Date().getFullYear()} Plouffelul, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Plouffelul Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

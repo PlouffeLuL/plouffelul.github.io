@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: "Required script configuration"
 ---
 # Configuration
 
@@ -9,83 +10,42 @@ sidebar_position: 1
 # Github
 - https://github.com/PlouffeLuL/plouffe_weapons
 
-# Discord
-- https://discord.com/invite/xJVCY9AvvW
-
 # Convars
-- plouffe_weapons:removeDrops
-    - Example:
-        - set plouffe_weapons:removeDrops "true"
-    - Description: 
-        - Will simply remove weapons drops without the use of a frame thread
-        - Alot of people didnt seem to be aware of that
+|Name | Example | Description | Format | Notes |
+| - |  - | - | - | - |
+| plouffe_weapons:removeDrops | set plouffe_weapons:removeDrops "true" | Simply remove weapons drops without the use of a frame thread | string | |
+| plouffe_weapons:forceHeadshot | set plouffe_weapons:forceHeadshot "true" | Force headshots | string | 1 |
+| plouffe_weapons:customCrosshair | set plouffe_weapons:customCrosshair "true" | Use custom crosshair | string | 2 |
+| plouffe_weapons:tazerEffects | set plouffe_weapons:tazerEffects "true" | Realistic and progressive effect to the tazer | string | |
+| plouffe_weapons:antiAimBoost | set plouffe_weapons:antiAimBoost "true" | stop player from being able to 'aimboost' | string | 3 |
+| plouffe_weapons:useWeaponsOnBack | set plouffe_weapons:useWeaponsOnBack "true" | string | 4 |
+| plouffe_weapons:gsr | set plouffe_weapons:gsr "true" | Use items or go in water to wash your gsr | string | |
+| plouffe_weapons:clean_gsr_items | set plouffe_weapons:clean_gsr_items ["gsr_purel"] | Items people can use to wash gsr | json string[] | |
+| plouffe_weapons:tazer_ammo_items | set plouffe_weapons:tazer_ammo_items ["tazer_clip:1"] | Items that can be used to recharge tazer | item_name:ammo_value | 5 |
 
-- plouffe_weapons:forceHeadshot
-    - Example:
-        - set plouffe_weapons:forceHeadshot "true"
-    - Description: 
-        - Will force headshots to work even for people wearing helmets
-        - Makes it so people dont run everywhere with fucking helmets in rp
-        - Makes it obvious when people are using cheats like no headshot
+# Notes
+- 1 
+    - Will force headshots to work even for people wearing helmets
+    - Makes it so people dont run everywhere with fucking helmets in rp
+    - Makes it obvious when people are using cheats like no headshot
 
-- plouffe_weapons:customCrosshair
-    - Example:
-        - set plouffe_weapons:customCrosshair "true"
-    - Description: 
-        - Will remove the default crosshair and replace it with a small white dot that dosent show red when over a target
-        - Will also force people to disable 'On kill' effects so their screen dosent 'Flash' when killing someone
-        - Once again usefull for rp
+- 2 
+    - Will remove the default crosshair and replace it with a small white dot that dosent show red when over a target
+    - Will also force people to disable 'On kill' effects so their screen dosent 'Flash' when killing someone
+    - Once again usefull for rp
+- 3 
+    - For thoses you who dont know when crouched or in certain condition you can spamm your aim and sprint button to boost your movement. Frequently known as A-D spamm.
 
-- plouffe_weapons:tazerEffects
-    - Example:
-        - set plouffe_weapons:tazerEffects "true"
-    - Description: 
-        - Will add a more realistic an progressive effect to the tazer, the more you get tazed the more you feel the effects
+- 4 
+    - Add weapons on back
+    - Supports custom position for any specific weapons and specific groups (Ex: polices can have SMG on chest while other jobs have it on back)
+    - Supoorts modular and addon weapons 
+    - Supports active attachements (Qb and Ox (you need my branch of ox to have this functionnality has my pr was refused on ox_inventory) i'll try to figure something to do a work around after the release)
+    - When i refer to active attachements i mean that if you have a weapon with an attachement on it you will also see it on your weapon when its on your back so if lets say silencers are illegal in your server you can see  people with them. (not the best example i know)
+    - Preconfigured for ESX, QbCore and Ox_core
 
-- plouffe_weapons:antiAimBoost
-    - Example:
-        - set plouffe_weapons:antiAimBoost "true"
-    - Description: 
-        - Will stop player from being able to 'aimboost'
-        - For thoses you who dont know when crouched or in certain condition you can spamm your aim and sprint button to boost your movement. Frequently known as A-D spamm.
-    
-- plouffe_weapons:useWeaponsOnBack
-    - Example:
-        - set plouffe_weapons:useWeaponsOnBack "true"
-    - Description: 
-        - Add weapons on back
-        - Supports custom position for any specific weapons and specific groups (Ex: polices can have SMG on chest while other jobs have it on back)
-        - Supoorts modular and addon weapons 
-        - Supports active attachements (Qb and Ox (you need my branch of ox to have this functionnality has my pr was refused on ox_inventory) i'll try to figure something to do a work around after the release)
-        - When i refer to active attachements i mean that if you have a weapon with an attachement on it you will also see it on your weapon when its on your back so if lets say silencers are illegal in your server you can see  people with them. (not the best example i know)
-        - Preconfigured for ESX, QbCore and Ox_core
-
-- plouffe_weapons:gsr
-    - Example:
-        - set plouffe_weapons:gsr "true"
-    - Description: 
-        - An optimised GSR functionnality.
-        - You can use items to wash your gsr.
-        - You can wash your gsr in water.
-
-- plouffe_weapons:clean_gsr_items
-    - Example:
-        - set plouffe_weapons:clean_gsr_items ["gsr_purel"]
-    - Description: 
-        - All the items people can use to wash gsr.
-    - Format
-        - json string[]
-
-- plouffe_weapons:tazer_ammo_items
-    - Example:
-        - set plouffe_weapons:tazer_ammo_items ["tazer_clip:1"]
-    - Description: 
-        - Setting this will enable the tazer clips, if you dont set this it wont work.
-        - Items that can be used to recharge tazer
-    - Format
-        - item_name:ammo_value
-        - ["tazer_clip:1"] would set tazer_clip item to add 1 ammo in your tazer
-
+- 5
+    - Setting this will enable the tazer clips, if you dont set this it wont work.
 # Example config 
 
 ```

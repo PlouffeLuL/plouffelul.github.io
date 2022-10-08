@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+description: "Required script configuration"
 ---
 # Configuration
 
@@ -11,69 +12,20 @@ sidebar_position: 1
 # Github
 - https://github.com/PlouffeLuL/plouffe_cayorobbery
 
-# Discord
-- https://discord.com/invite/xJVCY9AvvW
-
 # Convars
-- plouffe_cayorobbery:qtarget
-    - Example:
-        - setr plouffe_cayorobbery:qtarget "true"
-    - Description: 
-        - Will use qtarget to loot
 
-- plouffe_cayorobbery:thermal_item
-    - Example:
-        - set plouffe_cayorobbery:thermal_item "thermal_charge"
-    - Description: 
-        - The item name used to thermal the gates
-
-- plouffe_cayorobbery:glass_cutter_item
-    - Example:
-        - set plouffe_cayorobbery:glass_cutter_item "thermal_glass_cutter"
-    - Description: 
-        - The item name used to cut the glass
-
-- plouffe_cayorobbery:hack_item
-    - Example:
-        - set plouffe_cayorobbery:hack_item "usb_black"
-    - Description: 
-        - The item name used to start the robbery
-
-- plouffe_cayorobbery:key_item
-    - Example:
-        - set plouffe_cayorobbery:key_item "cayo_keys"
-    - Description: 
-        - The item name used to open doors
-
-- plouffe_cayorobbery:elevator_hack_item
-    - Example:
-        - set plouffe_cayorobbery:elevator_hack_item "laptop"
-    - Description: 
-        - The item name used to hack the elevator
-
-- plouffe_cayorobbery:diamond_item
-    - Example:
-        - set plouffe_cayorobbery:diamond_item "huge_diamond"
-    - Description: 
-        - The item name of the diamond
-
-- plouffe_cayorobbery:police_groups
-    - Example:
-        - set plouffe_cayorobbery:police_groups ["police", "sherif"]
-    - Description: 
-        - Groups to be detected as 'Police'
-
-- plouffe_cayorobbery:min_cops
-    - Example:
-        - set plouffe_cayorobbery:min_cops "5"
-    - Description: 
-        - Minimum player in 'polices' groups required to start the robbery
-
-- plouffe_cayorobbery:time_to_rob
-    - Example:
-        - set plouffe_cayorobbery:time_to_rob "1"
-    - Description: 
-        - Total time to complet the robbery in hours
+|Name | Example | Description | Format |
+| - |  - | - | - |
+| plouffe_cayorobbery:qtarget | setr plouffe_cayorobbery:qtarget "true" | Will use qtarget to loot | string |
+| plouffe_cayorobbery:thermal_item | set plouffe_cayorobbery:thermal_item "thermal_charge" | The item name used to thermal the gates | string |
+| plouffe_cayorobbery:glass_cutter_item | set plouffe_cayorobbery:glass_cutter_item "thermal_glass_cutter" | The item name used to cut the glass | string |
+| plouffe_cayorobbery:hack_item | set plouffe_cayorobbery:hack_item "usb_black" | The item name used to start the robbery | string |
+| plouffe_cayorobbery:key_item | set plouffe_cayorobbery:key_item "cayo_keys" | The item name used to open doors | string |
+| plouffe_cayorobbery:elevator_hack_item | set plouffe_cayorobbery:elevator_hack_item "laptop" | The item name used to hack the elevator | string |
+| plouffe_cayorobbery:diamond_item | set plouffe_cayorobbery:diamond_item "huge_diamond" | The item name of the diamond | string |
+| plouffe_cayorobbery:police_groups | set plouffe_cayorobbery:police_groups ["police", "sherif"] | Groups to be detected as 'Police' | json string[] |
+| plouffe_cayorobbery:min_cops | set plouffe_cayorobbery:min_cops "5" | Minimum player in 'polices' groups required to start the robbery | string |
+| plouffe_cayorobbery:time_to_rob | set plouffe_cayorobbery:time_to_rob "1" | Total time to complet the robbery in hours | string |
 
 # Example config 
 
