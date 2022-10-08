@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[3720],{5975:e=>{e.exports=JSON.parse('{"title":"Shops Robbery","description":"Shops Robbery","slug":"/category/shops-robbery","permalink":"/docs/category/shops-robbery","navigation":{"next":{"title":"Configuration","permalink":"/docs/plouffe_shopsrobbery/configuration"}}}')}}]);
