@@ -35,18 +35,32 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: true,
+      },
       navbar: {
         title: 'Plouffe Scripts',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Plouffe logo',
+          src: 'img/plouffe.png',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Docs',
+            label: 'Docs'
+          },
+          {
+            href: 'https://plouffe.tebex.io',
+            position: 'left',
+            label: 'Tebex'
+          },
+          {
+            href: 'ttps://discord.gg/xJVCY9AvvW',
+            position: 'left',
+            label: 'Discord'
           }
         ],
       },
@@ -58,6 +72,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['lua']
       },
     }),
 };
