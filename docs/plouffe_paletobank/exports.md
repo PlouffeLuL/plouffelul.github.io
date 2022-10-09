@@ -8,7 +8,7 @@ description: "Script exports"
 # Try Lockpick
 - Used to trigger the lockpick charge function
 ```lua
-exports.plouffe_paletobank:TryThermal()
+exports.plouffe_paletobank:TryLockpick()
 ```
 # Try Destroy Loot
 - Used to trigger the TryDestroyLoot function
