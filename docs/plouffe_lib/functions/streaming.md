@@ -10,7 +10,7 @@ sidebar_position: 5
 ```
 
 - Loading an Fx asset
-    - ```Utils:AssureFxAsset(asset,ignoreRemove)```
+    - ```Utils.AssureFxAsset(asset,ignoreRemove)```
         - Params
         ```
         ---@param asset string asset name
@@ -18,7 +18,7 @@ sidebar_position: 5
         ---@return boolean if the asset was succesfully loaded
         ```
 - Loading a model
-    - ```Utils:AssureModel(model,ignoreRemove)```
+    - ```Utils.AssureModel(model,ignoreRemove)```
         - Params
         ```
         ---@param model string model name
@@ -26,7 +26,7 @@ sidebar_position: 5
         ---@return boolean if the model was succesfully loaded
         ```
 - Loading an animation dictionary
-    - ```Utils:AssureAnim(dict,ignoreRemove)```
+    - ```Utils.AssureAnim(dict,ignoreRemove)```
         - Params
         ```
         ---@param dict string dict name
@@ -34,7 +34,7 @@ sidebar_position: 5
         ---@return boolean if the dict was succesfully loaded
         ```
 - Loading an animation set
-    - ```Utils:AssureAnimSet(dict,ignoreRemove)```
+    - ```Utils.AssureAnimSet(dict,ignoreRemove)```
         - Params
         ```
         ---@param dict string dict name

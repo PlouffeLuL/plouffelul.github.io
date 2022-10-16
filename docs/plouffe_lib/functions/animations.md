@@ -11,7 +11,7 @@ sidebar_position: 1
 
 - Stoping a forced anim
 ```lua
-  Utils:StopAnim()
+  Utils.StopAnim()
 ```
 
 - Starting an animation
@@ -30,5 +30,5 @@ sidebar_position: 1
   fx : table -- not used currently
   params : table conaining target ped
 
-  Utils:PlayAnim(time,dict,anim,flag,entry,exit,duration,loop,unarm,disableInputs,prop,fx,params)
+  Utils.PlayAnim(time,dict,anim,flag,entry,exit,duration,loop,unarm,disableInputs,prop,fx,params)
 ```

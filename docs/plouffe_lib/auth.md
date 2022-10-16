@@ -12,7 +12,7 @@ sidebar_position: 8
 # Events
 - Call 
 ```lua
-Auth:Events(playerId,eventName,timer)
+Auth.Events(playerId,eventName,timer)
 ```
 - Params 
     ```
@@ -33,7 +33,7 @@ Auth:Events(playerId,eventName,timer)
   RegisterNetEvent("esx:policeblips", function()
     local playerId = source
 
-    if not Auth:Events(playerId,"esx:policeblips") then
+    if not Auth.Events(playerId,"esx:policeblips") then
       return DropPlayer(player, "spammed esx blips")
     end
   end)
@@ -43,7 +43,7 @@ Auth:Events(playerId,eventName,timer)
 # Register
 - Call 
 ```lua
-Auth:Register(playerId)
+Auth.Register(playerId)
 ```
 - Params 
     ```
@@ -60,7 +60,7 @@ Auth:Register(playerId)
 # Validate
 - Call 
 ```lua
-Auth:Validate(playerId,auth)
+Auth.Validate(playerId,auth)
 ```
 - Params 
   ```lua

@@ -20,7 +20,7 @@ sidebar_position: 3
     ```
 
     ```lua
-    Utils:DrawText3D(coords,text,scale,r,g,b,alpha)
+    Utils.DrawText3D(coords,text,scale,r,g,b,alpha)
     ```
 
 - Text 2D
@@ -36,5 +36,5 @@ sidebar_position: 3
     ```
 
     ```lua
-    Utils:DrawText2D(x,y,txt,scale,r,g,b,alpha)
+    Utils.DrawText2D(x,y,txt,scale,r,g,b,alpha)
     ```

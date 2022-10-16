@@ -15,5 +15,5 @@ sidebar_position: 1
   group : string
   subgroup : string or number
     
-  Groups:Set(groupType, group, subgroup)
+  Groups.Set(groupType, group, subgroup)
 ```

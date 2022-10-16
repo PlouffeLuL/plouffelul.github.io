@@ -14,7 +14,7 @@ sidebar_position: 2
     playerId : number 
     groupType : string <optional> -- if not used it will return the player groups object
     
-    Groups:GetPlayerGroups(playerId, groupType)
+    Groups.GetPlayerGroups(playerId, groupType)
 ```
 
 - Structure 

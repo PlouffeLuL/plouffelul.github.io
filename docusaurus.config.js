@@ -78,6 +78,11 @@ const config = {
             href: 'https://www.youtube.com/channel/UCeok97XakwymEu3gz-Ziwgw',
             position: 'left',
             label: 'Youtube'
+          },
+          {
+            href: 'https://ko-fi.com/plouffelul',
+            position: 'left',
+            label: 'Ko-fi'
           }
         ],
       },

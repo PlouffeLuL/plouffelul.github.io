@@ -13,12 +13,12 @@ sidebar_position: 1
 ```lua
     group : string
 
-    Groups:GetGroupPlayers(group)
+    Groups.GetGroupPlayers(group)
 ```
 
 - Example usage 
 ```lua
-    local polices = Groups:GetGroupPlayers("police")
+    local polices = Groups.GetGroupPlayers("police")
     print(("There is currently %s polices"):format(polices.len))
 
     for playerId,_ in pairs(polices) do

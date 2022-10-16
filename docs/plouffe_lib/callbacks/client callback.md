@@ -11,7 +11,7 @@ sidebar_position: 2
 
 # Server
   ```lua
-  Callback:ClientCallback(playerId,name,timeout,cb,...)
+  Callback.Await(playerId,name,timeout,cb,...)
   ```
   - Params 
     ```lua
@@ -24,14 +24,14 @@ sidebar_position: 2
     ```
     - Example
       ```lua
-        Callback:ClientCallback(playerId, "hello:world", 30, (data)
+        Callback.Await(playerId, "hello:world", 30, (data)
             print(data)
         end, "foo")
       ```
 
 # Client 
   ```lua
-  Callback:RegisterClientCallback(name,cb)
+  Callback.Register(name,cb)
   ```
   - Params 
     ```lua
@@ -44,7 +44,7 @@ sidebar_position: 2
     ```
     - Example
       ```lua
-        Callback:RegisterClientCallback("hello:world", function(cb,data)
+        Callback.Register("hello:world", function(cb,data)
             print(data)
             cb("bar")
         end)

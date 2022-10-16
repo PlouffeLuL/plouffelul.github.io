@@ -10,7 +10,7 @@ sidebar_position: 4
 ```
 
 - Spawning a ped
-    - ```Utils:SpawnPed(model,coords,heading,networked,mission,ignoreRemoveModel)```
+    - ```Utils.SpawnPed(model,coords,heading,networked,mission,ignoreRemoveModel)```
         - Params
         ```
         ---@param model string ped model
@@ -23,7 +23,7 @@ sidebar_position: 4
         ```
 
 - Spawning a vehicle
-    - ```Utils:SpawnVehicle(model,coords,heading,networked,mission,giveKeys,ignoreRemoveModel)```
+    - ```Utils.SpawnVehicle(model,coords,heading,networked,mission,giveKeys,ignoreRemoveModel)```
         - Params
         ```
         ---@param model text ped model
@@ -37,7 +37,7 @@ sidebar_position: 4
         ```
 
 - Spawning an object
-    - ```Utils:CreateProp(model,coords,heading,networked,mission,ignoreRemoveModel)```
+    - ```Utils.CreateProp(model,coords,heading,networked,mission,ignoreRemoveModel)```
         - Params
         ```
         ---@param model text ped model

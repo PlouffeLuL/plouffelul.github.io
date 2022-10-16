@@ -11,7 +11,7 @@ sidebar_position: 1
 
 # Server
   ```lua
-  Callback:RegisterServerCallback(name,cb)
+  Callback.Register(name,cb)
   ```
   - Params 
     ```lua
@@ -21,7 +21,7 @@ sidebar_position: 1
     ```
     - Example
       ```lua
-      Callback:RegisterServerCallback("hello:world", function(playerId, cb, data)
+      Callback.Register("hello:world", function(playerId, cb, data)
         print(data)
         cb("bar")
       end)
@@ -31,7 +31,7 @@ sidebar_position: 1
 
   - Sync
     ```lua
-    Callback:Sync(name,...)
+    Callback.Sync(name,...)
     ```
 
     - Params 
@@ -43,13 +43,13 @@ sidebar_position: 1
 
       - Example 
         ```lua
-          local data = Callback:Sync("hello:world", "foo")
+          local data = Callback.Sync("hello:world", "foo")
           print(data)
         ```
 
   - Await 
     ```lua
-    Callback:Await(name,cb,...)
+    Callback.Await(name,cb,...)
     ```
 
     - Params 
@@ -61,7 +61,7 @@ sidebar_position: 1
       ```
       - Example 
         ```lua
-        Callback:Await("hello:world", function(data)
+        Callback.Await("hello:world", function(data)
           print(data)
         end, "foo")
         ```

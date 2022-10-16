@@ -10,7 +10,7 @@ sidebar_position: 7
 ```
 
 - Get seat coords 
-    - ```Utils:GetSeatCoords(ped)```
+    - ```Utils.GetSeatCoords(ped)```
         - Params
         ```
         ---@param ped int the ped to get seatcoords of
@@ -18,7 +18,7 @@ sidebar_position: 7
         ```
 
 - Get props
-    - ```Utils:GetVehicleProps(vehicle)```
+    - ```Utils.GetVehicleProps(vehicle)```
         - Params
         ```
         ---@param vehicle integrer vehicleId
@@ -26,7 +26,7 @@ sidebar_position: 7
         ```
 
 - Set props
-    - ```Utils:SetVehicleProps(vehicle, props)```
+    - ```Utils.SetVehicleProps(vehicle, props)```
         - Params
         ```
         ---@param vehicle int vehicleId
