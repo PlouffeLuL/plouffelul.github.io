@@ -15,6 +15,8 @@ Here you can find all documentation regarding all of my scripts and the project.
 
 **[Twitch](https://www.twitch.tv/plouffelul)** is where i live stream my development
 
+**[Ko-fi](https://ko-fi.com/plouffelul)** if you wish to support my work a little more or without buying my stuff you can do it there
+
 # Developpement
 Scripts are tested and developped under ox_core and are made to be usable on 
 - *ox_core*
