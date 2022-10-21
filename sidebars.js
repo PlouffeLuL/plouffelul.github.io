@@ -89,6 +89,11 @@ const sidebars = {
       label: 'Weapons',
       href: '/docs/plouffe_weapons/configuration'
     },
+    {
+      type: 'link',
+      label: 'Jail',
+      href: '/docs/plouffe_jail/configuration'
+    }
   ],
   plouffe_lib: [
     {
