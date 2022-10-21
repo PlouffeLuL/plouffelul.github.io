@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[2867],{5939:i=>{i.exports=JSON.parse('{"title":"Jail","description":"Jail and community services script","slug":"/category/jail","permalink":"/docs/category/jail","navigation":{"next":{"title":"Configuration","permalink":"/docs/plouffe_jail/configuration"}}}')}}]);
